@@ -13,9 +13,9 @@ npm run dev
 
 ## Subscriptions not working
 
-I can not get subscriptions to work using the [modules array in the configuration options](https://github.com/heyMP/apollo-server-modules-demo/blob/master/index.js#L4-L6).
+I can not get subscriptions to work using the [modules array](https://github.com/heyMP/apollo-server-modules-demo/blob/master/index.js#L4-L6) in the configuration options.
 I'm implementing the PubSub that comes with Apollo Server.
-When I attempt to run a subscription query:
+When I attempt to run a subscription query to attach to the [message subscription](https://github.com/heyMP/apollo-server-modules-demo/blob/master/modules/scripts/index.js#L27-L31) defined in my module:
 ```
 subscription {
   message
