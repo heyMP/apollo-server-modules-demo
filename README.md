@@ -29,3 +29,5 @@ I recieve the following error:
   }
 }
 ```
+
+![Graphql playground screen displaying error.](./assets/screenshot.png)
