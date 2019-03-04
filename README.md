@@ -29,5 +29,3 @@ I recieve the following error:
   }
 }
 ```
-
-
